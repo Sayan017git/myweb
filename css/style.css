@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Srisakdi:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    border-radius: 50px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 200vh;
+    position: fixed;
+    top: 0;
+    padding: 26px 30px;
+    display: flex;
+    
+}
+.nav-list{
+    width: 50%;
+     /* background-color: black;  */
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+
+    padding: 26px 30px;
+    list-style: none;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: red;
+}
+.rightNav{
+    padding: 0 23px;
+     /* background-color: blueviolet;  */
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../img/wildlife3.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    justify-content: center;
+    align-items: center;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 50%;
+    margin: auto;
+}
+.firsthalf{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.secondhalf{
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf img{
+    width: 70%;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.text-big{
+    width: 300px;
+    font-size: 18px;
+    color: aqua;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.text-small{
+    font-size: 14px;
+    color: #e6d6f5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.btn{
+    margin: 3px;
+    background:red;
+    padding: 4px;
+    color: #f8f9fa;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-sn{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.section{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.b1{
+    background: rgba(0, 0, 0, 0.7) url(../img/HD-Wildlife-Wallpaper.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height:70vh;
+}
+.sectionSubTag{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 150%;
+    color: rgba(216, 198, 198, 0.7);
+    padding-right: 20px;
+    padding-left: 200px;
+    
+}
+.sec-Left{
+    background: rgba(0, 0, 0, 0.7) url(../img/cheetah.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+flex-direction: row-reverse;
+max-width: 100%;
+height: 70vh;
+
+}
+.sectionTag.text-big{
+    background: none;
+    padding-left: 200px;
+    padding-right: 5px;
+    color: rgb(247, 33, 33);
+    cursor: pointer;
+}
+.thumbnail{
+    border: 2px solid black;
+    border-radius: 28px;
+    padding: 20px;
+}
+.sec-Right{
+    background: rgba(0, 0, 0, 0.7) url(../img/wildlife2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    max-width: 100%;
+    height: 70vh;
+}
+.contact{
+    background-color: rgb(212, 212, 245);
+    height: 70vh;
+    text-align: center;
+ 
+}
+#name {
+  margin: 20px;
+  width: 500px;
+}
+#email{
+    width: 500px;
+    margin: 20px;
+}
+#number{
+    width: 500px;
+    margin: 20px;
+}
+#textarea{
+    width: 500px;
+    margin: 20px;
+
+ }
+.submit{
+    padding: 5px 10px;
+    color: black;
+    background: none;
+    border: 3px 3px black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+footer{
+    background: rgba(0, 0, 0, 0.7) url(../img/wildlife3.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    color: white;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 50%;
+    top: 15%;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 740px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+}
